@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site - Oficina de CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header">
+    <div class="logo">Meu Site</div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#conteudo">Conteúdo</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO / DESTAQUE ===================== -->
+  <section id="inicio" class="hero">
+    <h1 class="hero-title">Título de Destaque</h1>
+    <p class="hero-subtitle">Um subtítulo curto explicando do que se trata este site.</p>
+    <a href="#conteudo" class="botao">Saiba mais</a>
+  </section>
+
+  <!-- ===================== TEXTO ===================== -->
+  <section id="sobre" class="secao secao-texto">
+    <h2 class="secao-titulo">Sobre</h2>
+    <p>
+      Este é um parágrafo de exemplo. Use este espaço para praticar propriedades
+      de tipografia como <code>font-family</code>, <code>font-size</code>,
+      <code>line-height</code> e <code>color</code>.
+    </p>
+    <p>
+      Adicione quantos parágrafos quiser. Este bloco também é um bom lugar
+      para testar <code>padding</code>, <code>margin</code> e
+      <code>max-width</code>, controlando o tamanho ideal de um bloco de texto
+      para leitura confortável.
+    </p>
+  </section>
+
+  <!-- ===================== CARDS ===================== -->
+  <section id="conteudo" class="secao">
+    <h2 class="secao-titulo">Conteúdo em Cards</h2>
+    <div class="cards">
+      <div class="card">
+        <h3 class="card-titulo">Card 1</h3>
+        <p class="card-texto">Texto de exemplo para o primeiro card. Use esta seção para praticar Flexbox ou Grid.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-titulo">Card 2</h3>
+        <p class="card-texto">Texto de exemplo para o segundo card.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-titulo">Card 3</h3>
+        <p class="card-texto">Texto de exemplo para o terceiro card.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-titulo">Card 4</h3>
+        <p class="card-texto">Texto de exemplo para o quarto card.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERIA / IMAGENS ===================== -->
+  <section id="galeria" class="secao">
+    <h2 class="secao-titulo">Galeria</h2>
+    <div class="galeria">
+      <img src="https://placehold.co/400x300" alt="Imagem de exemplo 1" class="galeria-img">
+      <img src="https://placehold.co/400x300" alt="Imagem de exemplo 2" class="galeria-img">
+      <img src="https://placehold.co/400x300" alt="Imagem de exemplo 3" class="galeria-img">
+      <img src="https://placehold.co/400x300" alt="Imagem de exemplo 4" class="galeria-img">
+      <img src="https://placehold.co/400x300" alt="Imagem de exemplo 5" class="galeria-img">
+      <img src="https://placehold.co/400x300" alt="Imagem de exemplo 6" class="galeria-img">
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="contato" class="footer">
+    <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+    <ul class="footer-links">
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">E-mail</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
